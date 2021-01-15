@@ -8,4 +8,5 @@ sendBtn.addEventListener('click',messageOut);
 function messageOut(){
 
       displayMessage.innerHTML= input.value;
+      input.value = '';
 }
