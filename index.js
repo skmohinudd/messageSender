@@ -6,7 +6,13 @@ sendBtn.addEventListener('click',messageOut);
 
 
 function messageOut(){
-
+      
+      if(input.value === ''){
+            alert('please Enetr valid Info')
+      }else{
       displayMessage.innerHTML= input.value;
       input.value = '';
+      }
+
+      
 }
